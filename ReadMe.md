@@ -6,7 +6,7 @@ for the Simple Driver Framework.
 IMPORTANT
 Please read the file available from SE Exchange Shop for a guide
 to customization and implementation.
-Link: https://shop.exchange.se.com/en-US/apps/<TBA>
+Link: https://shop.exchange.se.com/en-US/apps/63177/ecostruxure-geo-scada-expert-basic-mqtt-sample-driver
 
 The driver is offered as source code which you can build with Visual 
 Studio. It includes the two parts of the driver and an installer, enabling 
