@@ -122,14 +122,14 @@
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
-    <PostBuildEvent>copy $(TargetDir)\M2Mqtt.Net.dll C:\Dev\ClearSCADA\Binaries\X64\Release\
-copy $(TargetDir)\M2Mqtt.Net.pdb C:\Dev\ClearSCADA\Binaries\X64\Release\
+    <PostBuildEvent>copy $(TargetDir)\M2Mqtt.Net.dll "C:\Program Files\Schneider Electric\ClearSCADA"
+copy $(TargetDir)\M2Mqtt.Net.pdb "C:\Program Files\Schneider Electric\ClearSCADA"
 
-copy $(TargetPath) C:\Dev\ClearSCADA\Binaries\X64\Release\
-copy $(TargetDir)\DriverMQTTClient.pdb C:\Dev\ClearSCADA\Binaries\X64\Release\
+copy $(TargetPath) "C:\Program Files\Schneider Electric\ClearSCADA"
+copy $(TargetDir)\DriverMQTTClient.pdb "C:\Program Files\Schneider Electric\ClearSCADA"
 
-copy $(TargetDir)\MQTTClient.dll C:\Dev\ClearSCADA\Binaries\X64\Release\
-copy $(TargetDir)\MQTTClient.pdb C:\Dev\ClearSCADA\Binaries\X64\Release\
+copy $(TargetDir)\MQTTClient.dll "C:\Program Files\Schneider Electric\ClearSCADA"
+copy $(TargetDir)\MQTTClient.pdb "C:\Program Files\Schneider Electric\ClearSCADA"
 </PostBuildEvent>
   </PropertyGroup>
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
