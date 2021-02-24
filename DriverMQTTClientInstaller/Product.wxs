@@ -19,10 +19,10 @@
           <Directory Id="INSTALLDIR" Name="ClearSCADA">
             <Component Id="DRIVERDLLS" Guid="948AEE65-FF95-4F43-CC58-A9B27D29FA23" Win64="yes">
               <File Id="MQTTClient.dll" Name="MQTTClient.dll" Source="..\DriverMQTTClient\bin\x64\Debug\MQTTClient.dll" />
-              <File Id="M2Mqtt.Net.dll" Name="M2Mqtt.Net.dll" Source="..\DriverSparkplugB\bin\x64\Debug\M2Mqtt.Net.dll" />
+              <File Id="M2Mqtt.Net.dll" Name="M2Mqtt.Net.dll" Source="..\DriverMQTTClient\bin\x64\Debug\M2Mqtt.Net.dll" />
               <RegistryKey Root="HKLM" Key="SOFTWARE\Schneider Electric\ClearSCADA\DriverMQTTClient">
                 <RegistryValue Type="string" Value="MQTTClient"/>
-                <RegistryValue Type="string" Name="AssemblyName" Value="C:\\Program Files\\Schneider Electric\\ClearSCADA\\MQTTClient.dll" KeyPath="yes"/>
+                <RegistryValue Type="string" Name="AssemblyName" Value="C:\Program Files\Schneider Electric\ClearSCADA\MQTTClient.dll" KeyPath="yes"/>
                 <RegistryValue Type="string" Name="TaskName" Value="DriverMQTTClient.exe"/>
               </RegistryKey>              
             </Component>
